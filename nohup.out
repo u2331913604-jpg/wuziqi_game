@@ -1,0 +1,45 @@
+[I 2026-03-08 12:21:50.152 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-03-08 12:21:50.154 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2026-03-08 12:21:50.155 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-03-08 12:21:50.157 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-03-08 12:21:50.157 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-03-08 12:21:50.158 ServerApp] Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2026-03-08 12:21:50.416 ServerApp] notebook_shim | extension was successfully linked.
+[W 2026-03-08 12:21:50.431 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2026-03-08 12:21:50.431 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-03-08 12:21:50.432 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-03-08 12:21:50.433 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-03-08 12:21:50.434 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/deepseek/lib/python3.13/site-packages/jupyterlab
+[I 2026-03-08 12:21:50.434 LabApp] JupyterLab application directory is /root/miniconda3/envs/deepseek/share/jupyter/lab
+[I 2026-03-08 12:21:50.434 LabApp] Extension Manager is 'pypi'.
+[I 2026-03-08 12:21:50.480 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-03-08 12:21:50.481 ServerApp] Serving notebooks from local directory: /root/.jupyter
+[I 2026-03-08 12:21:50.481 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-03-08 12:21:50.481 ServerApp] http://localhost:8000/lab?token=...
+[I 2026-03-08 12:21:50.481 ServerApp]     http://127.0.0.1:8000/lab?token=...
+[I 2026-03-08 12:21:50.481 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+gio: file:///root/.local/share/jupyter/runtime/jpserver-7349-open.html: Failed to find default application for content type ‘text/html’
+[I 2026-03-08 12:21:53.560 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-03-08 12:32:11.605 ServerApp] 302 GET / (@::1) 0.72ms
+[I 2026-03-08 12:32:11.608 LabApp] 302 GET /lab? (@::1) 0.60ms
+[I 2026-03-08 12:32:16.541 ServerApp] User 7bb80da2df3243b391c3f851866d76fb logged in.
+[I 2026-03-08 12:32:16.541 ServerApp] 302 POST /login?next=%2Flab%3F (7bb80da2df3243b391c3f851866d76fb@::1) 0.95ms
+[W 2026-03-08 12:32:17.269 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-03-08 12:33:01.955 ServerApp] Creating new file in 
+[I 2026-03-08 12:34:20.050 ServerApp] Creating new notebook in 
+[I 2026-03-08 12:34:20.089 ServerApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[I 2026-03-08 12:34:20.378 ServerApp] Kernel started: 340c8b29-5d54-4d45-99bc-063224d465ca
+[I 2026-03-08 12:34:20.851 ServerApp] Adapting from protocol version 5.3 (kernel 340c8b29-5d54-4d45-99bc-063224d465ca) to 5.4 (client).
+[I 2026-03-08 12:34:20.851 ServerApp] Adapting from protocol version 5.3 (kernel 340c8b29-5d54-4d45-99bc-063224d465ca) to 5.4 (client).
+[I 2026-03-08 12:34:20.851 ServerApp] Connecting to kernel 340c8b29-5d54-4d45-99bc-063224d465ca.
+[I 2026-03-08 12:34:20.853 ServerApp] Connecting to kernel 340c8b29-5d54-4d45-99bc-063224d465ca.
+[W 2026-03-08 12:34:20.853 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-03-08 12:34:20.873 ServerApp] Adapting from protocol version 5.3 (kernel 340c8b29-5d54-4d45-99bc-063224d465ca) to 5.4 (client).
+[I 2026-03-08 12:34:20.873 ServerApp] Connecting to kernel 340c8b29-5d54-4d45-99bc-063224d465ca.
+[I 2026-03-08 12:36:20.249 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-03-08 12:38:20.317 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-03-08 12:46:34.266 ServerApp] New terminal with automatic name: 1
+[W 2026-03-08 12:49:13.456 ServerApp] delete /untitled.py
+[I 2026-03-08 12:49:30.737 ServerApp] Saving file at /Untitled.ipynb
+[W 2026-03-08 12:49:30.767 ServerApp] /root/.jupyter/Untitled.ipynb doesn't exist
